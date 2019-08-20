@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
     vendor/zte/axon7/proprietary/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/dpmapi.xml \
     vendor/zte/axon7/proprietary/etc/permissions/lpa.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/lpa.xml \
-    vendor/zte/axon7/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/zte/axon7/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/zte/axon7/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/zte/axon7/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
@@ -88,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/framework/com.quicinc.cne.server-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.1-java.jar \
     vendor/zte/axon7/proprietary/framework/com.quicinc.cne.server-V2.2-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.server-V2.2-java.jar \
     vendor/zte/axon7/proprietary/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpmapi.jar \
-    vendor/zte/axon7/proprietary/framework/org.simalliance.openmobileapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/org.simalliance.openmobileapi.jar \
     vendor/zte/axon7/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/zte/axon7/proprietary/framework/vendor.qti.data.factory-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.data.factory-V1.0-java.jar \
     vendor/zte/axon7/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
@@ -847,7 +845,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
-    SmartcardService \
     TimeService \
     QtiTelephonyServicelibrary \
     WfdCommon \

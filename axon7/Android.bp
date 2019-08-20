@@ -171,17 +171,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SmartcardService",
-	owner: "zte",
-	apk: "proprietary/vendor/app/SmartcardService/SmartcardService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "zte",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
