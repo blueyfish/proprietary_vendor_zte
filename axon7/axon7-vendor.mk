@@ -107,11 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/axon7/proprietary/system_ext/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/librcc.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libtfa9890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa9890.so \
     vendor/zte/axon7/proprietary/vendor/lib64/libvendorcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendorcfg.so \
-    vendor/zte/axon7/proprietary/system/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.0.so \
-    vendor/zte/axon7/proprietary/system/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.1.so \
-    vendor/zte/axon7/proprietary/system/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.2.so \
-    vendor/zte/axon7/proprietary/system/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.0.so \
-    vendor/zte/axon7/proprietary/system/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.1.so \
     vendor/zte/axon7/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/zte/axon7/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/zte/axon7/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
