@@ -836,8 +836,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     libaudio_log_utils \
-    libsdm-disp-vndapis \
     libthermalclient \
+    libsdm-disp-vndapis \
     QtiTelephonyService \
     CNEService \
     WfdService \
