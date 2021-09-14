@@ -34,6 +34,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -52,6 +53,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -71,6 +73,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -90,6 +93,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "both",
+	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
 }
@@ -102,17 +106,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-}
-
-android_app_import {
-	name: "WfdService",
-	owner: "zte",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 }
 
 android_app_import {
@@ -198,12 +191,6 @@ dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "zte",
 	jars: ["proprietary/framework/QtiTelephonyServicelibrary.jar"],
-}
-
-dex_import {
-	name: "WfdCommon",
-	owner: "zte",
-	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 dex_import {
